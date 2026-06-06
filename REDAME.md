@@ -28,10 +28,6 @@ A deep learning model that detects pneumonia from chest X-ray images.
 pip install -r requirements.txt
 python app.py
 ```
-
-## ⚠️ Disclaimer
-This is a student project — not a medical diagnosis tool.
-
 ## 👤 Author
 Mohamed Kharrat — ENSI Manouba
 [LinkedIn](https://linkedin.com/in/mohamed-kharrat1) | 

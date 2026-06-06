@@ -1,30 +1,38 @@
----
-title: Pneumonia Detector
-emoji: 🫁
-colorFrom: blue
-colorTo: indigo
-sdk: gradio
-sdk_version: 4.0.0
-app_file: app.py
-pinned: false
----
-
-# Chest X-Ray Pneumonia Detection
+# 🫁 Pneumonia Detector
 
 A deep learning model that detects pneumonia from chest X-ray images.
 
-## Model
+## 🔗 Live Demo
+[Try it on Hugging Face](https://huggingface.co/spaces/shankos/pneumonia-detector)
+
+## 🧠 Model
 - Architecture: ResNet50 + Transfer Learning
-- Dataset: Chest X-Ray Images (Kaggle)
+- Dataset: [Chest X-Ray Images (Kaggle)](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia)
 - Accuracy: 86.7%
 
-## How to use
-1. Upload a chest X-ray image
-2. Click Submit
-3. See the prediction
+## 🛠️ Tech Stack
+- Python
+- TensorFlow / Keras
+- Gradio
+- Hugging Face Spaces
 
-## Disclaimer
+## 📊 Results
+| Metric | Value |
+|--------|-------|
+| Test Accuracy | 86.7% |
+| Model | ResNet50 |
+| Dataset | 5,216 images |
+
+## 🚀 How to run locally
+```bash
+pip install -r requirements.txt
+python app.py
+```
+
+## ⚠️ Disclaimer
 This is a student project — not a medical diagnosis tool.
 
-## Built by
+## 👤 Author
 Mohamed Kharrat — ENSI Manouba
+[LinkedIn](https://linkedin.com/in/mohamed-kharrat1) | 
+[Hugging Face](https://huggingface.co/spaces/shankos/pneumonia-detector)
